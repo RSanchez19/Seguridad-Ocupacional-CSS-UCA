@@ -1,0 +1,100 @@
+.que-es {
+  padding: 80px 0;
+  background: white;
+}
+
+.que-es-content {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.que-es-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.description {
+  color: #7f8c8d;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.principios-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.principio-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.principio-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.principio-text h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e3a5f;
+  margin-bottom: 0.25rem;
+}
+
+.principio-text p {
+  color: #7f8c8d;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.que-es-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  grid-template-rows: auto auto;
+}
+
+.image-placeholder {
+  background: #f0f2f5;
+  border-radius: 10px;
+  padding: 3rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  min-height: 150px;
+}
+
+.que-es-images .image-placeholder:first-child {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.que-es-images .image-placeholder:nth-child(2) {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.que-es-images .image-placeholder:nth-child(3) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+@media (max-width: 968px) {
+  .que-es-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .que-es-images {
+    order: -1;
+  }
+}
+

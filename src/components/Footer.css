@@ -1,0 +1,19 @@
+.footer {
+  background: #1e3a5f;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.footer-content p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
+  margin: 0;
+}
