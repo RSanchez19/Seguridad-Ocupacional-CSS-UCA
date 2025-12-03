@@ -42,7 +42,7 @@ const QueEs = () => {
             </div>
           </div>
           <div className="que-es-images">
-            <div className="image-placeholder">Imagen 1</div>
+            <div className="image-placeholder image-placeholder-large">Imagen 1</div>
             <div className="image-placeholder">Imagen 2</div>
             <div className="image-placeholder">Imagen 3</div>
           </div>

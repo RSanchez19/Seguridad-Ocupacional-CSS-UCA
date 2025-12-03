@@ -64,9 +64,9 @@ const Hero = () => {
       </div>
 
       <div className="hero-content">
-        <h1 className="hero-title">Seguridad y Salud Ocupacional en la UCA</h1>
+        <h1 className="hero-title">Seguridad Ocupacional en la UCA</h1>
         <p className="hero-subtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at nisl quis magna posuere porttitor. Morbi vitae lorem bibendum.
+          Planificamos, ejecutamos y medimos iniciativas que priorizan la seguridad ocupacional sobre la salud general: identificación temprana de peligros, controles de ingeniería y respuesta inmediata para que cada actividad académica concluya sin incidentes.
         </p>
         <div className="hero-buttons">
           <a href="#protocolos" className="btn-link">Ver protocolos</a>
