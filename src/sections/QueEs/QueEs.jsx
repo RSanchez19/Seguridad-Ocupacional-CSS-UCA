@@ -1,23 +1,7 @@
+import { queEsPrincipios } from '../../content/sections'
 import './QueEs.css'
 
 const QueEs = () => {
-  const principios = [
-    {
-      icon: '⚠️',
-      title: 'Principio 1',
-      description: 'Lorem ipsum dolor sit amet.'
-    },
-    {
-      icon: '❓',
-      title: 'Principio 2',
-      description: 'Consectetur adipiscing elit mattis.'
-    },
-    {
-      icon: '⬇️',
-      title: 'Principio 3',
-      description: 'Vivamus suscipit convallis volutpat.'
-    }
-  ]
 
   return (
     <section id="que-es" className="que-es">
@@ -30,7 +14,7 @@ const QueEs = () => {
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
             </p>
             <div className="principios-list">
-              {principios.map((principio, index) => (
+              {queEsPrincipios.map((principio, index) => (
                 <div key={index} className="principio-item">
                   <div className="principio-icon">{principio.icon}</div>
                   <div className="principio-text">

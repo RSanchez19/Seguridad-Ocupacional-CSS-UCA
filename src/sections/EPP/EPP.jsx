@@ -1,23 +1,7 @@
+import { eppItems } from '../../content/sections'
 import './EPP.css'
 
 const EPP = () => {
-  const eppItems = [
-    {
-      icon: '⛑️',
-      title: 'Cabecera',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    },
-    {
-      icon: '🧤',
-      title: 'Manos',
-      description: 'Quisque placerat sapien a orci eleifend, nec convallis.'
-    },
-    {
-      icon: '👢',
-      title: 'Calzado',
-      description: 'Morbi rhoncus risus id nunc bibendum feugiat.'
-    }
-  ]
 
   return (
     <section id="epp" className="epp">
