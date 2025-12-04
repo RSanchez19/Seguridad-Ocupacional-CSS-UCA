@@ -1,4 +1,5 @@
 import { importanciaItems } from '../../content/sections'
+import Card from '../../components/ui/Card'
 import './Importancia.css'
 
 const Importancia = () => {
@@ -8,12 +9,14 @@ const Importancia = () => {
       <div className="container">
         <h2 className="section-title">¿Por qué es importante?</h2>
         <div className="importancia-grid">
-          {importanciaItems.map((item, index) => (
-            <div key={index} className="importancia-card">
-              <div className="icon">{item.icon}</div>
-              <h3 className="card-title">{item.title}</h3>
-              <p className="card-description">{item.description}</p>
-            </div>
+          {importanciaItems.map((item) => (
+            <Card
+              key={item.title}
+              icon={item.icon}
+              title={item.title}
+              description={item.description}
+              align="center"
+            />
           ))}
         </div>
       </div>
