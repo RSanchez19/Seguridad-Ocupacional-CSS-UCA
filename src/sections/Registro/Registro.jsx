@@ -1,12 +1,8 @@
 import './Registro.css'
 
 const Registro = () => {
-  // URL del formulario de SharePoint
-  // Configura esta variable en tu archivo .env o reemplázala directamente
-  // Ver SHAREPOINT_SETUP.md para más información
-  const sharepointFormUrl = import.meta.env.VITE_SHAREPOINT_FORM_URL || ''
-  
-  // Si no hay URL configurada, mostrar mensaje de configuración
+  const sharepointFormUrl = import.meta.env.VITE_SHAREPOINT_FORM_URL 
+    || 'https://forms.office.com/Pages/ResponsePage.aspx?id=hrQc_xLZ40mUNBIunEWJXuB5gDCcAGxGvMwcrjV7ANFUQkVDMEFCN1dQQjk1ODEyUjNCTENJNEFVWi4u'
   if (!sharepointFormUrl) {
     return (
       <section id="registro" className="registro">
@@ -19,7 +15,6 @@ const Registro = () => {
                 o edita directamente el componente <code>Registro.jsx</code>.
               </p>
               <p className="fallback-text">
-                Consulta el archivo <code>SHAREPOINT_SETUP.md</code> para más información sobre cómo configurar el formulario.
               </p>
             </div>
           </div>
@@ -45,9 +40,6 @@ const Registro = () => {
           
           {/* Mensaje alternativo si el iframe no carga */}
           <div className="form-fallback">
-            <p className="fallback-text">
-              Si el formulario no se muestra correctamente, puedes acceder directamente haciendo clic en el siguiente enlace:
-            </p>
             <a 
               href={sharepointFormUrl} 
               target="_blank" 
