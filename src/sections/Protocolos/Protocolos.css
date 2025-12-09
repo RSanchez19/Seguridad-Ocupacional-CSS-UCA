@@ -1,0 +1,38 @@
+.protocolos {
+  padding: var(--section-padding) 0;
+  background: var(--color-surface-muted);
+}
+
+.protocolos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-lg);
+}
+
+.protocolos .ui-card__icon {
+  background: rgba(15, 106, 180, 0.1);
+}
+
+.btn-guia {
+  width: 100%;
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: 999px;
+  border: none;
+  background: var(--color-primary);
+  color: var(--color-surface);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: transform var(--transition-base), background var(--transition-base);
+}
+
+.btn-guia:hover {
+  background: var(--color-secondary);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .protocolos {
+    padding: calc(var(--section-padding) * 0.8) 0;
+  }
+}
+
