@@ -115,47 +115,66 @@ export const protocolosItems = [
 
 export const eppItems = [
   {
-    icon: '⛑️',
-    title: 'Cabecera',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/shield-check.svg',
+    iconAlt: 'Casco y protección',
+    title: 'Cabeza y rostro',
+    description: 'Casco con barbuquejo, lentes o careta; revisar daños y fecha; ajustar arnés para evitar desprendimientos.',
   },
   {
-    icon: '🧤',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/hand-raised.svg',
+    iconAlt: 'Guantes',
     title: 'Manos',
-    description: 'Quisque placerat sapien a orci eleifend, nec convallis.',
+    description: 'Guantes según riesgo: látex/nitrilo (bio), cuero (mecánico), dieléctricos (eléctrico). Retirar y desechar según protocolo.',
   },
   {
-    icon: '👢',
-    title: 'Calzado',
-    description: 'Morbi rhoncus risus id nunc bibendum feugiat.',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/shield-exclamation.svg',
+    iconAlt: 'Calzado de seguridad',
+    title: 'Pies',
+    description: 'Botas con punta y plantilla de protección en campo/obra; suela antideslizante en laboratorio; revisar sujeción y desgaste.',
+  },
+  {
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/face-smile.svg',
+    iconAlt: 'Respiración y bioseguridad',
+    title: 'Respiración y bioseguridad',
+    description: 'Mascarilla quirúrgica o KN95 según entorno; recambio cuando esté húmeda o dañada; higiene de manos antes y después de usarla.',
   },
 ]
 
 export const riesgosItems = [
   {
-    icon: '⚠️',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/exclamation-triangle.svg',
+    iconAlt: 'Riesgos físicos',
     title: 'Físicos',
-    description: 'Temperatura, ruido, caídas, golpes.',
+    description: 'Caídas al mismo y distinto nivel, golpes con objetos, ruido, calor y frío en actividades de campo o campus.',
   },
   {
-    icon: '🧪',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/beaker.svg',
+    iconAlt: 'Riesgos químicos',
     title: 'Químicos',
-    description: 'Sustancias, vapores, derrames.',
+    description: 'Manipulación de reactivos o productos de limpieza: vapores, derrames, contacto con piel y ojos. FDS y ventilación obligatoria.',
   },
   {
-    icon: '🦠',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/bug-ant.svg',
+    iconAlt: 'Riesgos biológicos',
     title: 'Biológicos',
-    description: 'Microorganismos y material biológico.',
+    description: 'Exposición a fluidos o superficies contaminadas en visitas comunitarias o laboratorio. Uso de guantes/mascarilla y desinfección.',
+  },
+  {
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/user-group.svg',
+    iconAlt: 'Ergonómicos y psicosociales',
+    title: 'Ergonómicos y psicosociales',
+    description: 'Posturas prolongadas, carga manual de materiales, jornadas extensas. Planificar pausas, alternar tareas y pedir apoyo.',
   },
 ]
 
 export const reportesContent = {
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    'Reportar a tiempo permite activar ayuda, documentar causas y prevenir que se repita. Si ocurre un evento, sigue estos pasos y avisa a tu coordinador.',
   tipos: [
-    'Condición insegura — algo que podría causar un incidente.',
-    'Incidente — evento sin lesión significativa.',
-    'Accidente — evento con lesión/daño.',
+    'Condición insegura: cable suelto, derrame, señalización ausente. Detén la actividad si hay riesgo.',
+    'Incidente: evento sin lesión grave. Registra fecha, lugar, tarea y quienes estaban presentes.',
+    'Accidente: hay lesión o daño. Brinda primeros auxilios, activa 911 si es necesario y notifica al responsable del CSS.',
+    'Documenta con fotos y contacta a tu coordinador para el registro formal.',
   ],
 }
 

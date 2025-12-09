@@ -10,15 +10,23 @@
   box-shadow: var(--shadow-base);
   border: 1px solid var(--color-border);
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: var(--space-xxl);
-  align-items: center;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: var(--space-xl);
+  align-items: start;
 }
 
 .reportes-content {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
+}
+
+.reportes .section-title {
+  margin: 0 0 0.4rem;
+}
+
+.reportes .description {
+  margin: 0;
 }
 
 .tipos-list {
@@ -69,18 +77,47 @@
   border-radius: var(--radius-sm);
 }
 
-.reportes-image {
+.reportes-side {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  gap: var(--space-lg);
 }
 
-.reportes-image img {
-  width: 100%;
-  min-height: 280px;
+.contact-card,
+.checklist-card {
+  background: linear-gradient(135deg, #f8fafc 0%, #e8f4f8 100%);
   border-radius: var(--radius-lg);
-  object-fit: cover;
-  box-shadow: var(--shadow-hover);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-base);
+  border: 1px solid rgba(30, 58, 95, 0.08);
+}
+
+.contact-card h3,
+.checklist-card h4 {
+  margin: 0 0 0.5rem;
+  color: var(--color-secondary);
+}
+
+.contact-card p {
+  margin: 0 0 0.75rem;
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.contact-card ul,
+.checklist-card ol {
+  margin: 0 0 0.75rem 1.1rem;
+  padding: 0;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.checklist-card ol {
+  list-style: decimal;
+}
+
+.checklist-card ol li + li {
+  margin-top: 0.25rem;
 }
 
 @media (max-width: 968px) {
@@ -88,10 +125,6 @@
     grid-template-columns: 1fr;
     gap: var(--space-xl);
     padding: var(--space-xl);
-  }
-
-  .reportes-image {
-    order: -1;
   }
 }
 

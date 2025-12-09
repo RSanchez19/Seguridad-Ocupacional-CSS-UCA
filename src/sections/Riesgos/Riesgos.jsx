@@ -11,7 +11,19 @@ const Riesgos = () => {
           {riesgosItems.map((riesgo) => (
             <Card
               key={riesgo.title}
-              icon={riesgo.icon}
+              icon={
+                riesgo.iconUrl ? (
+                  <img
+                    src={riesgo.iconUrl}
+                    alt={riesgo.iconAlt || riesgo.title}
+                    width={28}
+                    height={28}
+                    loading="lazy"
+                  />
+                ) : (
+                  riesgo.icon
+                )
+              }
               title={riesgo.title}
               description={riesgo.description}
             />

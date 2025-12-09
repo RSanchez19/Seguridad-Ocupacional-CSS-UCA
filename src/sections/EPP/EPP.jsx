@@ -12,7 +12,19 @@ const EPP = () => {
           {eppItems.map((item) => (
             <Card
               key={item.title}
-              icon={item.icon}
+              icon={
+                item.iconUrl ? (
+                  <img
+                    src={item.iconUrl}
+                    alt={item.iconAlt || item.title}
+                    width={28}
+                    height={28}
+                    loading="lazy"
+                  />
+                ) : (
+                  item.icon
+                )
+              }
               title={item.title}
               description={item.description}
               align="center"
