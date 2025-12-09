@@ -52,22 +52,6 @@
   flex-shrink: 0;
 }
 
-.tipo-text {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-}
-
-.tipo-text strong {
-  font-size: 1rem;
-}
-
-.tipo-text p {
-  margin: 0;
-  color: var(--color-text-muted);
-  line-height: 1.5;
-}
-
 .reportes-note {
   font-size: 0.9rem;
   color: var(--color-text);
