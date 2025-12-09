@@ -1,26 +1,26 @@
 export const heroSlides = [
   {
-    url: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1920&h=1080&fit=crop',
-    alt: 'Seguridad ocupacional - Equipo de protección',
+    url: '/hero-uca-1.jpg',
+    alt: 'Campus UCA y laboratorios',
   },
   {
-    url: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1920&h=1080&fit=crop',
-    alt: 'Seguridad en el trabajo - Trabajador con casco',
+    url: '/hero-uca-2.jpg',
+    alt: 'Campus UCA martires',
   },
   {
-    url: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&h=1080&fit=crop',
-    alt: 'Salud ocupacional - Ambiente seguro',
+    url: '/hero-uca-3.jpg',
+    alt: 'Cancha campus UCA',
   },
   {
-    url: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920&h=1080&fit=crop',
-    alt: 'Prevención de riesgos laborales',
+    url: '/hero-uca-4.jpg',
+    alt: 'Campus UCA 4',
   },
 ]
 
 export const heroCopy = {
-  title: 'Seguridad Ocupacional en la UCA',
+  title: 'Seguridad Ocupacional en CSS UCA',
   subtitle:
-    'Planificamos, ejecutamos y medimos iniciativas que priorizan la seguridad ocupacional sobre la salud general: identificación temprana de peligros, controles de ingeniería y respuesta inmediata para que cada actividad académica concluya sin incidentes.',
+    'Informate acerca de la importancia de la seguridad ocupacional y protocolos a seguir en los proyectos del Centro de Servicio Social: identificar peligros, usar el EPP correcto y actuar a tiempo para que las actividades estudiantiles se realicen sin incidentes.',
   actions: [
     { label: 'Ver protocolos', href: '#protocolos' },
     { label: 'Registrarme', href: '#registro' },
@@ -33,28 +33,28 @@ export const importanciaItems = [
     iconAlt: 'Escudo de protección',
     title: 'Actividades seguras',
     description:
-      'Cada visita, jornada o taller del Centro de Servicio Social se planifica con identificación de riesgos para cuidar a estudiantes, personal y comunidades.',
+      'En cada proyecto del servicio social revisamos tareas, herramientas y entorno para prevenir lesiones y proteger a estudiantes y beneficiarios.',
   },
   {
     iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/shield-exclamation.svg',
     iconAlt: 'Alerta de bioseguridad',
     title: 'EPP y bioseguridad',
     description:
-      'Uso de mascarillas, guantes y barreras físicas cuando la actividad lo requiera, para evitar contagios o exposición a agentes biológicos.',
+      'Se define el EPP según la actividad (guantes, mascarilla, lentes, calzado) y se refuerzan prácticas de higiene para evitar contagios o exposición a agentes.',
   },
   {
     iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/map.svg',
     iconAlt: 'Mapa y rutas',
     title: 'Rutas y puntos de reunión',
     description:
-      'Conocer salidas, zonas seguras y responsables de evacuación en campus y sedes donde se realizan prácticas o capacitaciones.',
+      'Antes de iniciar, se indican salidas, zonas seguras y responsables de evacuación en campus o sedes externas donde participen estudiantes.',
   },
   {
     iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/megaphone.svg',
     iconAlt: 'Megáfono de reporte',
     title: 'Reportar a tiempo',
     description:
-      'Avisar condiciones inseguras, incidentes y casi accidentes para activar protocolos, atender a quien lo necesite y prevenir repeticiones.',
+      'Reportar condiciones inseguras, incidentes y casi accidentes permite activar protocolos, atender a quien lo necesite y evitar recurrencia.',
   },
 ]
 

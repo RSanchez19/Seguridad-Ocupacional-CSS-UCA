@@ -11,9 +11,14 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
-        <div className="logo">
-          <h1>CSS UCA · Seguridad Ocupacional</h1>
-        </div>
+        <a className="logo" href="#hero" aria-label="Inicio - Seguridad Ocupacional CSS UCA">
+          <img
+            src="/logo-uca-css.png"
+            alt="Logo CSS UCA"
+            height="44"
+            loading="lazy"
+          />
+        </a>
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
           <a href="#importancia" onClick={() => setIsMenuOpen(false)}>Importancia</a>
           <a href="#que-es" onClick={() => setIsMenuOpen(false)}>¿Qué es?</a>
