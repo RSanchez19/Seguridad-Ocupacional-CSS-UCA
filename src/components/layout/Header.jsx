@@ -12,7 +12,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <h1>UCA · Seguridad Ocupacional</h1>
+          <h1>CSS UCA · Seguridad Ocupacional</h1>
         </div>
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
           <a href="#importancia" onClick={() => setIsMenuOpen(false)}>Importancia</a>

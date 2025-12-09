@@ -39,6 +39,12 @@
   margin-right: auto;
 }
 
+.ui-card__icon img {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
 .ui-card__title {
   font-size: 1.3rem;
   font-weight: 600;

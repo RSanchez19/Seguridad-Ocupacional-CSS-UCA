@@ -1,8 +1,9 @@
 # Landing Seguridad Ocupacional
 
-Landing informativa sobre seguridad y salud ocupacional: protocolos, EPP, reportes y un formulario de registro. Está hecha con React + Vite y estilos a medida.
+Landing informativa sobre seguridad ocupacional: protocolos, EPP, reportes y un formulario de registro.
+Hecha con React + Vite.
 
-## Cómo ponerla en marcha
+## Como levantar la pagina localmente
 
 1) Requisitos: Node 18+ y npm.
 2) Instala dependencias:
@@ -13,9 +14,6 @@ Landing informativa sobre seguridad y salud ocupacional: protocolos, EPP, report
    ```bash
    npm run dev
    ```
-   Abre el enlace que muestra Vite (por defecto `http://localhost:5173`).
+   Abre en tu navegador el enlace por defecto de vite: `http://localhost:5173`.
 
-## Otros scripts útiles
-
-- `npm run build` genera la versión para producción.
-- `npm run preview` sirve la build para revisarla.
+Listo, ya puedes visualizar la pagina de seguridad ocupacional del CSS

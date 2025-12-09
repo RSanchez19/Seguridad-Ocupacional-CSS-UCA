@@ -29,24 +29,32 @@ export const heroCopy = {
 
 export const importanciaItems = [
   {
-    icon: '⚠️',
-    title: 'Prevención',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam bibendum nunc at ligula.',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/shield-check.svg',
+    iconAlt: 'Escudo de protección',
+    title: 'Actividades seguras',
+    description:
+      'Cada visita, jornada o taller del Centro de Servicio Social se planifica con identificación de riesgos para cuidar a estudiantes, personal y comunidades.',
   },
   {
-    icon: '❓',
-    title: 'Conocimiento',
-    description: 'Mauris aliquet, lacus nec rutrum pharetra, tortor lorem varius sapien, eget semper nisl.',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/shield-exclamation.svg',
+    iconAlt: 'Alerta de bioseguridad',
+    title: 'EPP y bioseguridad',
+    description:
+      'Uso de mascarillas, guantes y barreras físicas cuando la actividad lo requiera, para evitar contagios o exposición a agentes biológicos.',
   },
   {
-    icon: '⬇️',
-    title: 'Recursos',
-    description: 'Cras efficitur, metus vel volutpat facilisis, ipsum odio porttitor justo, vitae luctus odio.',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/map.svg',
+    iconAlt: 'Mapa y rutas',
+    title: 'Rutas y puntos de reunión',
+    description:
+      'Conocer salidas, zonas seguras y responsables de evacuación en campus y sedes donde se realizan prácticas o capacitaciones.',
   },
   {
-    icon: '📍',
-    title: 'Orientación',
-    description: 'Sed euismod, nisl in suscipit viverra, justo arcu gravida orci, sit amet vehicula urna.',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/megaphone.svg',
+    iconAlt: 'Megáfono de reporte',
+    title: 'Reportar a tiempo',
+    description:
+      'Avisar condiciones inseguras, incidentes y casi accidentes para activar protocolos, atender a quien lo necesite y prevenir repeticiones.',
   },
 ]
 

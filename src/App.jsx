@@ -1,5 +1,6 @@
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
+import ContactBar from './components/layout/ContactBar'
 
 import {
   Hero,
@@ -25,6 +26,7 @@ function App() {
       <Riesgos />
       <Reportes />
       <Registro />
+      <ContactBar />
       <Footer />
     </div>
   )

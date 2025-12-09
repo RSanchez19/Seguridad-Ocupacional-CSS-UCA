@@ -12,7 +12,17 @@ const Importancia = () => {
           {importanciaItems.map((item) => (
             <Card
               key={item.title}
-              icon={item.icon}
+              icon={
+                item.iconUrl ? (
+                  <img
+                    src={item.iconUrl}
+                    alt={item.iconAlt || item.title}
+                    width={32}
+                    height={32}
+                    loading="lazy"
+                  />
+                ) : null
+              }
               title={item.title}
               description={item.description}
               align="center"
