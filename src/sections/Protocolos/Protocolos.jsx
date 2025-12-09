@@ -11,7 +11,19 @@ const Protocolos = () => {
           {protocolosItems.map((protocolo) => (
             <Card
               key={protocolo.title}
-              icon={protocolo.icon}
+              icon={
+                protocolo.iconUrl ? (
+                  <img
+                    src={protocolo.iconUrl}
+                    alt={protocolo.iconAlt || protocolo.title}
+                    width={28}
+                    height={28}
+                    loading="lazy"
+                  />
+                ) : (
+                  protocolo.icon
+                )
+              }
               title={protocolo.title}
               description={protocolo.description}
               align="center"

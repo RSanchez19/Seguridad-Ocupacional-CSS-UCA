@@ -1,7 +1,7 @@
 export const heroSlides = [
   {
     url: '/hero-uca-1.jpg',
-    alt: 'Campus UCA y laboratorios',
+    alt: 'Campus UCA laboratorios',
   },
   {
     url: '/hero-uca-2.jpg',
@@ -60,42 +60,56 @@ export const importanciaItems = [
 
 export const queEsPrincipios = [
   {
-    icon: '⚠️',
-    title: 'Principio 1',
-    description: 'Lorem ipsum dolor sit amet.',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/clipboard-document-check.svg',
+    iconAlt: 'Evaluación de riesgos',
+    title: 'Evaluación de riesgos en proyectos',
+    description:
+      'Antes de cada actividad del Centro de Servicio Social se identifican peligros, se clasifican los riesgos y se definen controles claros.',
   },
   {
-    icon: '❓',
-    title: 'Principio 2',
-    description: 'Consectetur adipiscing elit mattis.',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/shield-check.svg',
+    iconAlt: 'EPP y control',
+    title: 'Controles y EPP adecuados',
+    description:
+      'Se elige el EPP según la tarea (guantes, lentes, mascarilla, calzado) y se refuerzan controles administrativos y de ingeniería.',
   },
   {
-    icon: '⬇️',
-    title: 'Principio 3',
-    description: 'Vivamus suscipit convallis volutpat.',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/chat-bubble-left-right.svg',
+    iconAlt: 'Comunicación',
+    title: 'Comunicación y roles claros',
+    description:
+      'Cada equipo conoce responsables, rutas de evacuación, contactos de emergencia y cómo reportar condiciones inseguras.',
   },
 ]
 
 export const protocolosItems = [
   {
-    icon: '📈',
-    title: 'Sismo',
-    description: 'Lorem ipsum dolor sit amet. Protégete-cúbrete-agárrate.',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/map.svg',
+    iconAlt: 'Sismo y evacuación',
+    title: 'Sismo en campus o sedes',
+    description:
+      'Alarma: protégete-cúbrete-agárrate, corta calor/gas si es seguro. Evacúa a punto de reunión y pasa lista del equipo y voluntarios.',
   },
   {
-    icon: '🔥',
-    title: 'Incendio',
-    description: 'Alarma, extintor si es seguro, evacuar, reportar.',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/fire.svg',
+    iconAlt: 'Incendio',
+    title: 'Incendio en actividades',
+    description:
+      'Activa alarma, corta energía si procede. Usa extintor solo con ruta de escape y apoyo; evacúa a zona segura y reporta a coordinación/911.',
   },
   {
-    icon: '🧪',
-    title: 'Laboratorios',
-    description: 'EPP, señalización, duchas y botiquines.',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/beaker.svg',
+    iconAlt: 'Laboratorio y bioseguridad',
+    title: 'Laboratorios y bioseguridad',
+    description:
+      'Bata, guantes y gafas; conocer duchas/lavaojos. FDS a la vista; derrames: aislar, ventilar y notificar al responsable del laboratorio.',
   },
   {
-    icon: '🏔️',
-    title: 'Trabajo de campo',
-    description: 'Checklist previo y comunicación.',
+    iconUrl: 'https://cdn.jsdelivr.net/npm/heroicons@2.1.1/24/solid/flag.svg',
+    iconAlt: 'Trabajo de campo',
+    title: 'Trabajo de campo y visitas',
+    description:
+      'Briefing previo, ruta y punto de encuentro, check-in/out con coordinación. Kit de primeros auxilios y EPP según terreno y clima.',
   },
 ]
 
